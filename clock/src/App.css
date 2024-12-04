@@ -1,0 +1,48 @@
+.clock {
+  margin-inline: auto;
+  max-width: 700px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & h1 {
+    font-size: 3rem;
+  }
+}
+.setters {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+  & .container-controls {
+    display: flex;
+    flex-direction: row;
+    margin-inline: auto;
+    gap: 100px;
+  }
+}
+
+
+
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: greenyellow;
+  color: white;
+  cursor: pointer;
+}
+h4{
+  font-size: 30px;
+  margin-top: 20px;
+}
+span {
+  font-size: 24px;
+}
+.display {
+  text-align: center;
+  margin-top: 20px;
+}
